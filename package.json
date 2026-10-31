@@ -1,0 +1,22 @@
+{
+  "name": "typescript-array-merge",
+  "version": "1.0.0",
+  "description": "Merge two ascending arrays and one descending array into a single ascending array without sort()",
+  "main": "dist/src/merge.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.6.6",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "typescript": "^5.9.3"
+  }
+}
